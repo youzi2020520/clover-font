@@ -11,8 +11,8 @@
 }
 
 * {
-    margin: 0;
-    padding: 0;
+    margin: 100;
+    padding: 50;
     box-sizing: border-box;
 }
 
@@ -24,7 +24,7 @@ body {
 }
 
 /* --- 通用布局 --- */
-h1, h2, h3 {
+h2, h3 {
     font-weight: 700;
     margin-bottom: 20px;
     color: var(--color-text);
@@ -116,32 +116,6 @@ section {
     color: var(--color-primary);
 }
 
-/* --- 首页主宣传区 & 动态背景 (纯 CSS 动画) --- */
-.hero-section {
-    position: relative; 
-    background-color: white; 
-    padding: 100px 0 0px 0;
-    min-height: 400px; /* 确保高度 */
-    overflow: hidden;
-    text-align: center;
-}
-
-/* 动态背景容器：绝对定位并覆盖整个区域 */
-.animated-background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 0; 
-
-    /* 渐变设置：柔和的绿色系渐变 */
-    background: linear-gradient(-45deg, #E6F7FF, #E7FCE8, #D9F5E4, #F0F6D9);
-    background-size: 400% 400%; /* 放大渐变尺寸，便于移动 */
-
-    /* 启动动画 */
-    animation: gradientShift 15s ease infinite; 
-}
 
 /* 动画定义：缓慢移动渐变色 */
 @keyframes gradientShift {
@@ -164,8 +138,8 @@ section {
 }
 
 .hero-section h1 {
-    font-size: 3em;
-    margin-bottom: 15px;
+    font-size: 4em;
+    margin-bottom: 10px;
 }
 .highlight-green {
     color: #28a745; 
@@ -341,7 +315,7 @@ section {
 }
 
 .faq-content-container h1 {
-    font-size: 2em;
+    font-size: 3em;
     font-weight: 700;
     text-align: center;
     margin-bottom: 30px;
@@ -756,7 +730,7 @@ section {
         width: 100%;
     }
     .hero-section h1 {
-        font-size: 2em;
+        font-size: 3em;
     }
     .qr-code-container {
         gap: 40px;
