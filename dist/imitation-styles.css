@@ -173,7 +173,7 @@ section {
 /* --- 按钮样式 --- */
 .primary-button {
     display: inline-block;
-    background-color: #28a745;
+    background-color: #019d69;
     color: white;
     padding: 12px 30px;
     text-decoration: none;
@@ -234,7 +234,7 @@ section {
     margin-bottom: 10px;
 }
 .highlight-green {
-    color: #28a745; 
+    color: #029866; 
     font-weight: 700; 
 }
 /* --- 优势介绍区 --- */
@@ -415,7 +415,7 @@ section {
 }
 
 #fontSearchInput:focus {
-    border-color: #28a745; 
+    border-color: #13c236; 
     box-shadow: 0 0 0 3px rgba(40, 167, 69, 0.25);
     outline: none;
 }
