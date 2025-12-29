@@ -525,19 +525,17 @@ section {
 .back-link {
     display: inline-flex;
     align-items: center;
-    color: var(--color-primary);
+    color: #333333;
     text-decoration: none;
     font-weight: 500;
     font-size: 1rem;
     padding: 8px 16px;
     border-radius: 6px;
     transition: all 0.3s ease;
-    border: 1px solid transparent;
 }
 
 .back-link:hover {
-    background-color: rgba(40, 167, 69, 0.1);
-    border-color: var(--color-primary);
+    color: var(--color-primary);
     transform: translateX(-5px);
 }
 
